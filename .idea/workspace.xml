@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d413f8fd-0b56-4be1-af8d-5e330f001297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/all-exchanges-strings.lc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/all-orgs-strings.lc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/all-people-strings.lc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/all-places-strings.lc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/all-topics-strings.lc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/cat-descriptions_120396.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/feldman-cia-worldfactbook-data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/lewis.dtd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reuters/reut2-017.sgm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/Lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Lab1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/reducer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab1/Lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+            <state relative-caret-position="271">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -223,12 +211,12 @@
       <workItem from="1568000063417" duration="12000" />
       <workItem from="1568038267142" duration="1625000" />
       <workItem from="1568040129900" duration="1438000" />
-      <workItem from="1568041960828" duration="1138000" />
+      <workItem from="1568041960828" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8292000" />
+    <option name="totallyTimeSpent" value="8544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/Lab1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        <state relative-caret-position="271">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

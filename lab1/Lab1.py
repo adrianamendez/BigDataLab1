@@ -5,20 +5,6 @@ import pathlib
 
 path = pathlib.Path('Reuters/')
 
-
-def word_count(str):
-    counts = dict()
-    words = str.split()
-
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
-
-    return len(counts)
-
-
 def mapperp1(document):
 
     f = open("demofile2.txt", "w")
@@ -92,7 +78,6 @@ def reducerp1():
     document.close()
 
 for file in glob.glob("/Users/evergarden/Documents/PyProyects/Lab1/Reuters/*.sgm"):
-    print(file)
     currentDirectory = pathlib.Path(file)
     document_text = open(currentDirectory, 'r')
     mapperp1(document_text)
