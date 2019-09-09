@@ -24,24 +24,4 @@ for line in sys.stdin:
         print ('%s\t%s' % (word, "1"))
 
 
-# In[43]:
-
-
-# PREGUNTA 2
-print('%s\t%s\t%s' % (json_file['thread']['site_full'], json_file['published'][5:7],1))
-
-
-# In[44]:
-
-
-# PREGUNTA 3
-texto = json_file['text'].lower().split()
-for z in range(len(texto)-1):
-    print ('%s\t%s' % (texto[z] + ' ' + texto[z+1], 1))
-
-
-# In[ ]:
-
-
-
 
