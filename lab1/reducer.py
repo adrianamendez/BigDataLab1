@@ -29,13 +29,9 @@ for line in sys.stdin:
         word2titles[word_titles] = count_titles
         word2places[word_places] = count_places
 
-# write the tuples to stdout
-# Note: they are unsorted
+    # write the tuples to stdout
+    # Note: they are unsorted
 
-for word_titless in sorted(word2titles.items()):
-
-    print('%s\t%s' % (word_titless, word2titles[word_titless]))
-
-for word_placess in word2places.keys():
-
-    print('%s\t%s' % (word_placess, word2places[word_placess]))
+word2titles2 = sorted(word2titles.items(), key=lambda x: x[1], reverse=True)
+for word in word2titles2:
+    print(word)
