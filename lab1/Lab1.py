@@ -1,42 +1,43 @@
 import glob
 
 import pathlib
-
+from bs4 import BeautifulSoup,SoupStrainer
 
 path = pathlib.Path('Reuters/')
 
 def mapperp1(document):
 
     f = open("demofile2.txt", "w")
-    f.write("Now the file has more content!")
 
-    for line in list(document):
-        # --- remove leading and trailing whitespace---
-        line = line.strip()
+    soup = BeautifulSoup(document,features="lxml")
+    title = soup.findAll('title')
+    places = soup.findAll('places')
+    topics = soup.findAll('topics')
 
-        if "<TITLE>" in line:
-            # --- split the line into words ---
-            words = line.split()
+    for wordtitle in title:
+        title_final = str(wordtitle.string)
+        title_final = title_final.split()
 
-            # --- output tuples [word, 1] in tab-delimited format---
-            for word in words:
-                print(('%s\t%s' % (word, "1")), file=f)
+        for wordtitlefinal in title_final:
+            print(('%s\t%s' % (wordtitlefinal, "1")), file=f)
 
-        if "<PLACES>" in line:
-            # --- split the line into words ---
-            words = line.split()
+    for wordplaces in places:
+        places_final = str(wordplaces.string)
 
-            # --- output tuples [word, 1] in tab-delimited format---
-            for word in words:
-                print(('%s\t%s' % (word, "1")), file=f)
+        places_final = places_final.split()
 
-        if "<TOPICS>" in line:
-            # --- split the line into words ---
-            words = line.split()
+        for wordplacesfinal in places_final:
+            print(('%s\t%s' % (wordplacesfinal, "1")), file=f)
 
-            # --- output tuples [word, 1] in tab-delimited format---
-            for word in words:
-                print(('%s\t%s' % (word, "1")), file=f)
+    for wordtopics in topics:
+        topics_final = str(wordtopics.string)
+        topics_final = topics_final.split()
+
+        for wordtopicsfinal in topics_final:
+            print(('%s\t%s' % (wordtopicsfinal,"1")), file=f)
+
+
+
 
     f.close()
 
@@ -69,11 +70,11 @@ def reducerp1():
         # write the tuples to stdout
         # Note: they are unsorted
 
-    for word_titless in word2titles.keys():
-        print('%s\t%s' % (word_titless, word2titles[word_titless]))
+    word2titles2 = sorted(word2titles.items(), key=lambda x: x[1], reverse=True)
+    for word in word2titles2:
+        print(word)
 
-    for word_placess in word2places.keys():
-        print('%s\t%s' % (word_placess, word2places[word_placess]))
+
 
     document.close()
 
