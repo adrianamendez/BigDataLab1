@@ -5,6 +5,7 @@ import sys
 # maps words to their counts
 word2titles = {}
 word2places = {}
+top = 10
 
 # input comes from STDIN
 for line in sys.stdin:
@@ -31,7 +32,7 @@ for line in sys.stdin:
 # write the tuples to stdout
 # Note: they are unsorted
 
-for word_titless in word2titles.keys():
+for word_titless in sorted(word2titles.items()):
 
     print('%s\t%s' % (word_titless, word2titles[word_titless]))
 
