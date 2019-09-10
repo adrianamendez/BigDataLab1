@@ -1,3 +1,5 @@
+import sys
+
 word2titles = {}
 
 top = 10
