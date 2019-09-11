@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # reducer.py
+# encoding: utf-8
 import sys
 
 # maps words to their counts
@@ -56,14 +57,14 @@ for word in word2titles2:
         word2OptionC[counterC] = final_word
         counterC += 1
 
-print("Encuentre las 10 palabras más frecuentes que aparecen en los títulos de las noticias que hay en el dataset ")
+print("Encuentre las 10 palabras mas frecuentes que aparecen en los titulos de las noticias que hay en el dataset ")
 for word in word2OptionA.values():
     print(word)
 
-print("Indique cuáles son los países donde se reportan las noticias y cuántas veces aparece cada uno en el dataset. ")
+print("Indique cuales son los paises donde se reportan las noticias y cuantas veces aparece cada uno en el dataset. ")
 for word in word2OptionB.values():
     print(word)
 
-print("Indique cuántas noticias se publican en cada tema que aparece en el dataset. ")
+print("Indique cuantas noticias se publican en cada tema que aparece en el dataset. ")
 for word in word2OptionC.values():
     print(word)

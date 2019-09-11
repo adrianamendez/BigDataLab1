@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d413f8fd-0b56-4be1-af8d-5e330f001297" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Lab1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/demofile2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/demofile2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/mapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/reducer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/reducer_6a.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/reducer_6a.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1/Lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="1485">
               <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#34#44#0" expanded="true" />
               </folding>
@@ -71,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab1/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="409">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -117,9 +114,9 @@
       <list>
         <option value="$PROJECT_DIR$/lab1/mapper_6c.py" />
         <option value="$PROJECT_DIR$/lab1/reducer_6a.py" />
+        <option value="$PROJECT_DIR$/lab1/Lab1.py" />
         <option value="$PROJECT_DIR$/lab1/mapper.py" />
         <option value="$PROJECT_DIR$/lab1/reducer.py" />
-        <option value="$PROJECT_DIR$/lab1/Lab1.py" />
       </list>
     </option>
   </component>
@@ -134,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,12 +250,14 @@
       <workItem from="1568081004191" duration="1498000" />
       <workItem from="1568083490431" duration="1558000" />
       <workItem from="1568085300962" duration="1672000" />
-      <workItem from="1568087109240" duration="962000" />
+      <workItem from="1568087109240" duration="1739000" />
+      <workItem from="1568133377399" duration="277000" />
+      <workItem from="1568160502552" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19168000" />
+    <option name="totallyTimeSpent" value="20475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,13 +272,13 @@
     <frame x="0" y="23" width="1680" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2899878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2973138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.293911" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39929742" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.80679154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
@@ -371,6 +370,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/Lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/mapper_6a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -404,28 +413,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#34#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/Lab1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="409">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>

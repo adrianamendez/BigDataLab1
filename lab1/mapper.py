@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # mapper.py
+# encoding: utf-8
 import sys
 from bs4 import BeautifulSoup,SoupStrainer
 
